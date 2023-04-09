@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 	import { goto } from '$app/navigation';
 	import { page } from '$app/stores';
-	import { currentUser, currentPlan } from '$services/supabase.auth.service';
+	import { currentUser } from '$services/supabase.auth.service';
 	import Login from './Login/Login.svelte'
 
 	import { pwaBeforeInstallPrompt, canInstall } from '$lib/services/pwa';
@@ -167,12 +167,10 @@
 			</ion-list>
 		</ion-content>
 		<ion-footer class="ion-padding">
-			{#if $currentUser && $currentPlan}	  
+			{#if $currentUser}	  
 			<div class="pointer centered"on:click={() => {
 				closeAndNavigate('/account')			
 			}}>
-				{$currentPlan?.plan} plan<br/>
-				credits: {$currentPlan?.credits_used} / {$currentPlan?.credits_allowed}
 			</div><br/>
 			{/if}
 			<div class="pointer centered" on:click={() => {
