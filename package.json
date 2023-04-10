@@ -47,7 +47,7 @@
   "type": "module",
   "dependencies": {
     "@burggraf/svelte-map": "latest",
-    "@burggraf/svelte-supa-login": "^0.0.4",
+    "@burggraf/svelte-supa-login": "^0.0.5",
     "@ionic/core": "6.7.2",
     "@supabase/supabase-js": "^2.4.0",
     "@sveltejs/adapter-vercel": "^1.0.5",
