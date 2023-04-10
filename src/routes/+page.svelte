@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { currentUser, currentProfile } from '$services/supabase.auth.service';
 	import { goto } from '$app/navigation';
-	import Login from '../lib/components/Login/Login.svelte';
+	import Login from '@burggraf/svelte-supa-login' // './Login/Login.svelte'
 	import * as allIonicIcons from 'ionicons/icons';
 </script>
 <ion-header>

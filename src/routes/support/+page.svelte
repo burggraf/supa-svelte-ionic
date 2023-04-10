@@ -2,7 +2,7 @@
 	import IonPage from '$ionpage';
 	import { goto } from '$app/navigation';
 	import * as allIonicIcons from 'ionicons/icons';
-	import Login from '../../lib/components/Login/Login.svelte';
+	import Login from '@burggraf/svelte-supa-login';
 	import { currentUser } from '$services/supabase.auth.service';
     import { sendmail } from '$services/mailer.service';
     import { toast } from '$services/toast';

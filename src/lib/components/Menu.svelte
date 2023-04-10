@@ -3,7 +3,7 @@
 	import { goto } from '$app/navigation';
 	import { page } from '$app/stores';
 	import { currentUser } from '$services/supabase.auth.service';
-	import Login from './Login/Login.svelte'
+	import Login from '@burggraf/svelte-supa-login' // './Login/Login.svelte'
 
 	import { pwaBeforeInstallPrompt, canInstall } from '$lib/services/pwa';
 
