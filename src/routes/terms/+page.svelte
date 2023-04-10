@@ -20,9 +20,9 @@
 </ion-header>
 <ion-content class="ion-padding">
     <div class="inner-div">
-    <h1>Terms of Service for Call Security</h1>
+    <h1>Terms of Service for supa-svelte-ionic</h1>
 
-    <p>By using the Call Security service, you agree to the following terms:</p>
+    <p>By using the supa-svelte-ionic service, you agree to the following terms:</p>
 
     TBD
  

@@ -8,7 +8,7 @@
 	const doneThat = async () => {
 		const options = {
 			header: 'Great!',
-			subHeader: 'Thanks for installing Call Security!',
+			subHeader: 'Thanks for installing supa-svelte-ionic!',
 			message: 'The app should now be visible as icon on your home screen.',
 			buttons: [
 				{
@@ -29,12 +29,12 @@
 </script>
 
 <svelte:head>
-	<title>Install Call Security</title>
+	<title>Install supa-svelte-ionic</title>
 </svelte:head>
 
 <ion-content fullscreen class="ion-padding">
 	<br />
-	<img src="/assets/icon-512.png" alt="Call Security" width="55%" />
+	<img src="/assets/icon-512.png" alt="supa-svelte-ionic" width="55%" />
 	<h2>Hey there!</h2>
 	{#if !isSafari}
 		<br /><br />

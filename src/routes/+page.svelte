@@ -24,8 +24,8 @@
 						<ion-img style="height: 40px; width:40px; margin-left:10px; margin-right: 10px; margin-top: 30px;" src="/assets/icon.svg"></ion-img>
 					</ion-col>
 					<ion-col size="auto">
-						<h1>Call Security</h1>
-						<p>Security Guards on Call</p>			
+						<h1>supa-svelte-ionic</h1>
+						<p>Supabase, Svelte, Ionic</p>			
 					</ion-col>
 				</ion-row>
 			</ion-grid>
@@ -42,8 +42,8 @@
 						<ion-img style="height: 40px; width:40px; margin-left:10px; margin-right: 10px; margin-top: 30px;" src="/assets/icon.svg"></ion-img>
 					</ion-col>
 					<ion-col size="auto">
-						<h1>Welcome to Call Security</h1>
-						<p>Security Guards on Call</p>			
+						<h1>supa-svelte-ionic</h1>
+						<p>Supabase, Svelte, Ionic</p>			
 					</ion-col>
 				</ion-row>
 			</ion-grid>
@@ -74,7 +74,7 @@
 </div>
 <div class="flex-container">
 	<div class="flex-item primary">
-		<h3>What is Call Security?</h3>
+		<h3>What is supa-svelte-ionic?</h3>
 		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sed libero sit minima similique, autem, natus doloremque at facere expedita quasi dicta quo recusandae non quaerat! Necessitatibus vitae tenetur odio.</p>
 	</div>
 	<div class="flex-item primary">

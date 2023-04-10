@@ -20,7 +20,7 @@
 	const sendMessage = async () => {
 		const loader = await loadingBox('Sending message...');
         const { data, error } = await sendmail({
-          to: 'support@callsecurity.com',
+          to: 'support@supa-svelte-ionic.com',
 		  from,
 		  subject,
           content: message,
@@ -51,7 +51,7 @@
 					</ion-button>	
 				{/if}
 			</ion-buttons>
-			<ion-title>Call Security Support</ion-title>
+			<ion-title>supa-svelte-ionic Support</ion-title>
 		</ion-toolbar>
 	</ion-header>
 	<ion-content class="ion-padding">

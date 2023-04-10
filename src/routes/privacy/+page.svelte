@@ -20,9 +20,9 @@
 </ion-header>
 <ion-content class="ion-padding">
     <div class="inner-div">
-    <h1>Call Security Privacy Policy</h1>
+    <h1>supa-svelte-ionic Privacy Policy</h1>
 
-    At Call Security, we take the privacy of our users very seriously. This Privacy Policy explains how we collect, use, and protect the personal information of our users.<br/><br/>
+    At supa-svelte-ionic, we take the privacy of our users very seriously. This Privacy Policy explains how we collect, use, and protect the personal information of our users.<br/><br/>
     
     <h2>Information Collection and Use</h2>
     
@@ -34,7 +34,7 @@
     
     <ul><li>With your explicit consent</li>
         <li>To comply with the law or a legal process</li>
-        <li>To protect the rights, property, or safety of Call Security, our users, or the public</li>
+        <li>To protect the rights, property, or safety of supa-svelte-ionic, our users, or the public</li>
         <li>Information Security</li>
     </ul>
     

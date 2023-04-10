@@ -38,7 +38,7 @@
 		<ion-buttons slot="start">
 			<ion-menu-button />
 		</ion-buttons>
-		<ion-title>Call Security Settings</ion-title>
+		<ion-title>supa-svelte-ionic Settings</ion-title>
 	</ion-toolbar>
 </ion-header>
 <ion-content class="ion-padding">

@@ -11,7 +11,7 @@
 </ion-header>
 <ion-content class="ion-padding">
     <div class="inner-div">
-    <h1>Call Security</h1>
+    <h1>supa-svelte-ionic</h1>
     <h2>0.0.1</h2>
     <ul>
         <li>initial release</li>

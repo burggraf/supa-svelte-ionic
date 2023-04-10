@@ -5,7 +5,7 @@
   "version": "0.0.1",
   "private": true,
   "homepage": "https://github.com/burggraf/supa-svelte-ionic",
-  "menu_title": "Call Security",
+  "menu_title": "supa-svelte-ionic",
   "menu_subtitle": "Supabase, Svelte, & Ionic",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",

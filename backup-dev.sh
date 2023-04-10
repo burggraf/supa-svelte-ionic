@@ -14,6 +14,6 @@ pg_dump \
 | sed 's/^CREATE SCHEMA "auth";$/-- CREATE SCHEMA "auth";/' \
 | sed 's/^CREATE SCHEMA "storage";$/-- CREATE SCHEMA "storage";/' \
 | sed 's/^ALTER DEFAULT PRIVILEGES FOR ROLE "supabase_admin"/-- ALTER DEFAULT PRIVILEGES FOR ROLE "supabase_admin"/' \
-| gzip -c > ~/dev/callsecurity-backup/dev/callsecurity-backup-`date "+%Y.%m.%d-%H.%M.%S"`.sql.gz
+| gzip -c > ~/dev/supa-svelte-ionic-backup/dev/supa-svelte-ionic-backup-`date "+%Y.%m.%d-%H.%M.%S"`.sql.gz
 echo "backup complete"
 fi
