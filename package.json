@@ -1,19 +1,19 @@
 {
-  "name": "callsecurity",
-  "short_name": "callsecurity",
-  "description": "Call Security App",
+  "name": "supa-svelte-ionic",
+  "short_name": "supa-svelte-ionic",
+  "description": "Supabase, Svelte, & Ionic base app",
   "version": "0.0.1",
   "private": true,
-  "homepage": "https://callsecurity.net",
+  "homepage": "https://github.com/burggraf/supa-svelte-ionic",
   "menu_title": "Call Security",
-  "menu_subtitle": "Private Security Guards on Call",
+  "menu_subtitle": "Supabase, Svelte, & Ionic",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
   "profileTable": "profile",
   "profileKey": "id",
   "repository": {
     "type": "git",
-    "url": "https://github.com/burggraf/callsecurity.git"
+    "url": "https://github.com/burggraf/supa-svelte-ionic"
   },
   "scripts": {
     "dev": "vite dev --host 0.0.0.0 --port 8100 -- --open",
@@ -46,16 +46,14 @@
   },
   "type": "module",
   "dependencies": {
+    "@burggraf/svelte-map": "latest",
     "@ionic/core": "6.7.2",
-    "@mapbox/mapbox-gl-geocoder": "^5.0.1",
     "@supabase/supabase-js": "^2.4.0",
     "@sveltejs/adapter-vercel": "^1.0.5",
     "@tinymce/tinymce-svelte": "^1.0.0",
-    "@types/mapbox__mapbox-gl-geocoder": "^4.7.3",
     "html2pdf.js": "0.9.3",
     "ionic-svelte": "^0.5.72",
     "localforage": "^1.10.0",
-    "maplibre-gl": "^2.4.0",
     "pptxgenjs": "^3.11.0"
   }
 }
